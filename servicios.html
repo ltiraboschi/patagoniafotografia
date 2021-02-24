@@ -11,13 +11,13 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Staatliches&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="scss/styles.css" />
   <title>Patagonia Fotografía - Nuestros servicios</title>
   <meta name="description" content="¿Querés contratar a un fotógrafo profesional? Tenemos la solución. Fotos espectaculares para tu evento.">
   <meta name="keywords" content="Bodas, conciertos, fiestas, eventos, drones, corporativas, cabinas fotográficas">
 </head>
 
-<body>
+<body class="background-servicios">
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark navcustom">
@@ -50,78 +50,72 @@
   </header>
 
   
-  
-  <section class="servicios" class="text-center">
-    <div class="row">
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="fotos/boda.jpg" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="my-4 font-weight-bold">Fotos de bodas</h2>
-        <p>   En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
-          repudiandae itaque non dolores sint voluptates sequi beatae minus
-          quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
-      </div>
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="fotos/15.jpg" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="col-lg-6 my-4 font-weight-bold">Cumpleaños de 15</h2>
-        <p class="grey-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
-          repudiandae itaque non dolores sint voluptates sequi beatae minus
-          quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
-
-      </div>
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="Fotos/corporativas.jpg" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="my-4 font-weight-bold">Eventos corporativos</h2>
-        <p class="grey-text">     En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
-          repudiandae itaque non dolores sint voluptates sequi beatae minus
-          quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="fotos/cabina-fotos.jpg" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="my-4 font-weight-bold">Cabinas de fotos</h2>
-        <p class="grey-text">      En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+  <div class="card-deck mb-4">
+    <div class="card">
+      <img class="card-img-top" src="fotos/boda.jpg" alt="Fotos de bodas">
+      <div class="card-body">
+        <h4 class="card-title">Fotos de bodas</h4>
+        <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
           repudiandae itaque non dolores sint voluptates sequi beatae minus
           quasi dolorem vero exercitationem nihil ex accusantium dicta?.</p>
       </div>
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="fotos/drone-fotos.png" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="my-4 font-weight-bold">Drones</h2>
-        <p class="grey-text">Las fotos y videos tomadas por drones ofrecen una perspectiva única de tu evento.</p>
-      </div>
-      <div class="col-lg-4 col-md-12 mb-4">
-        <div class="view overlay z-depth-1-half">
-          <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
-          <div class="mask rgba-white-slight"></div>
-        </div>
-        <h2 class="my-4 font-weight-bold">Heading</h2>
-        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-          maiores nam,
-          aperiam minima
-          assumenda deleniti hic.</p>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="fotos/15.jpg" alt="Cumpleaños de 15">
+      <div class="card-body">
+        <h4 class="card-title">Cumpleaños de 15</h4>
+        <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
+          repudiandae itaque non dolores sint voluptates sequi beatae minus
+          quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
       </div>
     </div>
-  </section>
+    <div class="card">
+      <img class="card-img-top" src="fotos/corporativas.jpg" alt="Eventos corporativos">
+      <div class="card-body">
+        <h4 class="card-title">Eventos corporativos</h4>
+        <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
+          repudiandae itaque non dolores sint voluptates sequi beatae minus
+          quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
+      </div>
+    </div>
+      </div>
 
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="fotos/cabina-fotos.jpg" alt="Cabinas de fotos">
+          <div class="card-body">
+            <h4 class="card-title">Cabinas de fotos</h4>
+            <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
+              repudiandae itaque non dolores sint voluptates sequi beatae minus
+              quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="fotos/drone-fotos.png" alt="Drones">
+          <div class="card-body">
+            <h4 class="card-title">Drones</h4>
+            <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
+              repudiandae itaque non dolores sint voluptates sequi beatae minus
+              quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="fotos/estudio.jpg" alt="Fotos en estudio">
+          <div class="card-body">
+            <h4 class="card-title">Fotos en estudio</h4>
+            <p class="card-text">En Patagonia Fotografía ofrecemos Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatem eius, quisquam dignissimos ab
+              repudiandae itaque non dolores sint voluptates sequi beatae minus
+              quasi dolorem vero exercitationem nihil ex accusantium dicta?</p>
+          </div>
+        </div>
+          </div>
+  
   <footer>
     <div class="container">
       <div class="row">
