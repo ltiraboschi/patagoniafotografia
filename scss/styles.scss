@@ -1,0 +1,31 @@
+$footerBackColor:#06258f;
+$textColor: rgb(255,255,255);
+$primaryBtn: rgb(255, 255, 255);
+$hoverBtn: rgb(255,255,0);
+$navColor: #06258f;
+
+
+@mixin titulo {
+    font-family: "Staatliches", cursive;
+    color: #06258f;
+    }
+  
+
+  @mixin social {
+    font-size: 200%;
+    color: $primaryBtn;
+    &:hover {
+      font-size: 200%;
+      color: $hoverBtn;
+    }
+  }
+
+@import "./header";
+@import "./footer";
+@import "./index";
+@import "./nosotros";
+@import "./servicios";
+@import "./galeria";
+@import "./contactanos";
+
+

@@ -1,0 +1,24 @@
+.navcustom{
+  background-color: $navColor;
+}
+
+li {
+    a {
+    font-size: 30px;
+    padding-right: 25px !important;
+  }
+  }
+  
+  .header__logo {
+    img{
+    height: 61px;
+    }
+  }
+  
+
+
+//   @media only screen and (max-width: 768px) {
+//     .nav-desktop{
+//       display:flex;
+//   }
+// }

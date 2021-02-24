@@ -1,0 +1,139 @@
+.navcustom {
+  background-color: #06258f;
+}
+
+li a {
+  font-size: 30px;
+  padding-right: 25px !important;
+}
+
+.header__logo img {
+  height: 61px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #06258f;
+  color: white;
+  font-size: 25px;
+}
+
+.fa-instagram-square {
+  font-size: 200%;
+  color: white;
+}
+
+.fa-instagram-square:hover {
+  font-size: 200%;
+  color: yellow;
+}
+
+.fa-twitter-square {
+  font-size: 200%;
+  color: white;
+}
+
+.fa-twitter-square:hover {
+  font-size: 200%;
+  color: yellow;
+}
+
+.fa-facebook-square {
+  font-size: 200%;
+  color: white;
+}
+
+.fa-facebook-square:hover {
+  font-size: 200%;
+  color: yellow;
+}
+
+#copyright {
+  text-align: center;
+  background-color: #01000a;
+  color: white;
+  width: 100%;
+  position: relative;
+  bottom: -18px;
+  width: 100%;
+}
+
+body {
+  background-image: linear-gradient(315deg, #2591f7 0%, #076aa8 74%);
+}
+
+.carousel-headline {
+  position: absolute;
+  text-align: center;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.carousel-titulo {
+  font-family: "Staatliches", cursive;
+  color: #06258f;
+  font-size: 65px;
+}
+
+.carousel-subtitulo {
+  font-family: "Staatliches", cursive;
+  color: #06258f;
+  font-size: 35px;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 700px;
+}
+
+@media only screen and (min-width: 960px) {
+  .carousel-caption {
+    font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-titulo {
+    font-size: 3em;
+  }
+  .carousel-subtitulo {
+    font-size: 1.5em;
+  }
+}
+
+.background-nosotros {
+  background-image: linear-gradient(315deg, #2a2a72 0%, #010e16 74%);
+}
+
+.servicios {
+  padding-top: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+#contacto {
+  background-image: linear-gradient(315deg, #2591f7 0%, #076aa8 74%);
+}
+
+.contactanos {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.contactanos h1 {
+  color: white;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+}
+
+.fullvh {
+  min-height: 75vh;
+}
+/*# sourceMappingURL=styles.css.map */
