@@ -59,6 +59,11 @@ footer {
   width: 100%;
 }
 
+.mail a {
+  color: white;
+  text-decoration: underline;
+}
+
 body {
   background-image: linear-gradient(315deg, #2591f7 0%, #076aa8 74%);
 }
