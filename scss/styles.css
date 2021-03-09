@@ -151,7 +151,7 @@ body {
 .carousel_galeria img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 865x;
+  height: 865px;
 }
 
 #contacto {
