@@ -125,6 +125,16 @@ body {
   .carousel-caption p {
     font-size: 1em;
   }
+  .carousel-caption .carousel-titulo {
+    font-family: "Staatliches", cursive;
+    color: #06258f;
+    font-size: 3em;
+  }
+  .carousel-caption .carousel-subtitulo {
+    font-family: "Staatliches", cursive;
+    color: #06258f;
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
