@@ -4,11 +4,26 @@
 
 li a {
   font-size: 30px;
-  padding-right: 25px !important;
 }
 
 .header__logo img {
   height: 61px;
+}
+
+.header__logo__mobile img {
+  height: 61px;
+}
+
+@media only screen and (min-width: 992px) {
+  .header__logo__mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header__logo {
+    display: none;
+  }
 }
 
 footer {
