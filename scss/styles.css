@@ -114,15 +114,22 @@ body {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 960px) {
-  .carousel-caption {
-    font-size: 140%;
+.carousel-caption {
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 1.2em;
+  }
+  .carousel-caption p {
+    font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .carousel-titulo {
-    font-size: 2em;
+    font-size: 3em;
   }
   .carousel-subtitulo {
     font-size: 1.5em;

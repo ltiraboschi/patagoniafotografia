@@ -35,6 +35,7 @@ background-image: linear-gradient(315deg, #2591f7 0%, #076aa8 74%);
     }
   }
 
+
 .carousel-item{
   a{
 color: white;
@@ -43,19 +44,30 @@ text-decoration: underline;  }
 
 
 
+@media only screen and (min-width: 768px) {}
+.carousel-caption {
+  font-size: 1.4em;
+}
 
 
 
-  @media only screen and (min-width: 960px) {
-    .carousel-caption{
-    font-size: 140%;
-  }
-  }
+@media only screen and (max-width: 767px) {
+  .carousel-caption{
+    h1{
+      font-size: 1.2em;
+    }
+    p{
+      font-size: 1em;
+    }
+
+}
+}
+
 
 
   @media only screen and (max-width: 768px) {
     .carousel-titulo{
-      font-size: 2em;
+      font-size: 3em;
   }
   .carousel-subtitulo {
     font-size:1.5em;
